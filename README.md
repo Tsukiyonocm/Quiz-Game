@@ -24,12 +24,12 @@ This will create a simple card display which will list all the categories list a
 ##### Todo List #####
 Step 1:
 
-   ~~ 1. Institute basic logic for the questions array object.~~
+~~1. Institute basic logic for the questions array object.~~
 
-    ~~2. Setup github repo for initial commit.~~
+~~2. Setup github repo for initial commit.~~
 
-    3. Create branch for initial game selection screen "Choose a category". Branch name will be category selection.
+3. Create branch for initial game selection screen "Choose a category". Branch name will be category selection.
 
-    4.Create basic html/css layout for category selection. This will not be a finalized version of the design but will be enough to get the idea across and make sure the logic works within JS for pulling the list of categories out of the JS object.
+4.Create basic html/css layout for category selection. This will not be a finalized version of the design but will be enough to get the idea across and make sure the logic works within JS for pulling the list of categories out of the JS object.
 
-    5. Create thought outline on the project. Steps to go through to completion as well as thinking out each step in Readme and blog posting.
+5. Create thought outline on the project. Steps to go through to completion as well as thinking out each step in Readme and blog posting.
