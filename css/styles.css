@@ -1,0 +1,90 @@
+/** Variables
+ ---------------------------------------------------------*/
+ :root {
+    
+}
+
+
+/** Reset
+ ---------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+/** Layout
+ ---------------------------------------------------------*/
+
+ .container {
+     margin: 0 auto;
+     max-width: 120rem;
+     padding: 0 1rem;
+     background-color: beige;
+ }
+
+ .category_title {
+    border-bottom: 1px solid black;
+    padding: 4rem;
+ }
+
+ .category_card {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+
+ .category_card-container {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 2rem; 
+    border: 1px solid black;
+ }
+
+ .category_card-header {
+    
+ }
+
+
+ /** Media Queries
+  ---------------------------------------------------------*/
+
+  @media screen and (min-width: 600px) {
+      .category_card {
+          flex-direction: row;
+          justify-content: space-around;
+      }
+
+      .category_card-container {
+          width: calc(50% - 2rem);
+      }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .category_card-container {
+        width: calc(33.3333% - 2rem);
+    }
+}
