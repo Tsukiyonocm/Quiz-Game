@@ -4,7 +4,7 @@
     
 }
 
-
+ 
 /** Reset
  ---------------------------------------------------------*/
 * {
@@ -83,7 +83,7 @@ body {
       }
   }
 
-  @media screen and (min-width: 1000px) {
+  @media scr een and (min-width: 1000px) {
     .category_card-container {
         width: calc(33.3333% - 2rem);
     }
